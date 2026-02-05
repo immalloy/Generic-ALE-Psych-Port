@@ -1,0 +1,163 @@
+{
+  "format": "ale-stage-v0.1",
+  "hud": "default",
+  "zoom": 0.4,
+  "speed": 1,
+  "characterOffset": {
+    "id": {
+      "bf3m": {
+        "x": 2544.00270692018,
+        "y": 3234.97103045559
+      },
+      "mazin": {
+        "x": 1708.81653482583,
+        "y": 3501.83109056905
+      },
+      "gf": {
+        "x": 1895,
+        "y": 3450
+      },
+      "bfmajin2": {
+        "x": 2544.00270692018,
+        "y": 3234.97103045559
+      },
+      "bf3": {
+        "x": 2544.00270692018,
+        "y": 3234.97103045559
+      },
+      "mapin": {
+        "x": 1668.81653482583,
+        "y": 3211.83109056905
+      }
+    },
+    "type": {
+      "player": {
+        "x": 0,
+        "y": 0
+      },
+      "opponent": {
+        "x": 0,
+        "y": 0
+      },
+      "extra": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "objectsConfig": {
+    "directory": "majin2",
+    "objects": [
+      {
+        "id": "sky",
+        "path": "sky"
+      },
+      {
+        "id": "section",
+        "path": "section"
+      },
+      {
+        "id": "cellings",
+        "path": "cellings",
+        "properties": {
+          "x": -103.890775161708,
+          "y": -9.75424263904642,
+          "scrollFactor": {
+            "x": 0.95,
+            "y": 1
+          }
+        }
+      },
+      {
+        "id": "light",
+        "path": "light",
+        "properties": {
+          "x": 1860.68179283051,
+          "y": 2670.9316533983,
+          "scrollFactor": {
+            "x": 0.95,
+            "y": 1
+          }
+        }
+      },
+      {
+        "id": "light1",
+        "path": "light",
+        "properties": {
+          "x": 2758.97598911908,
+          "y": 2844.33920232024,
+          "scrollFactor": {
+            "x": 0.95,
+            "y": 1
+          }
+        }
+      },
+      {
+        "id": "light2",
+        "path": "light",
+        "properties": {
+          "x": 952.500000006282,
+          "y": 2887.00000000612,
+          "scrollFactor": {
+            "x": 0.95,
+            "y": 1
+          }
+        }
+      },
+      {
+        "id": "mapingf",
+        "path": "mapingf",
+        "properties": {
+          "x": 2065,
+          "y": 3508
+        }
+      },
+      {
+        "id": "boombox",
+        "path": "boombox",
+        "properties": {
+          "x": 2230,
+          "y": 3470,
+          "scrollFactor": {
+            "x": 0.98,
+            "y": 1
+          }
+        }
+      },
+      {
+        "id": "mid",
+        "path": "mid"
+      },
+      {
+        "id": "mapinVolando",
+        "path": "frontmapin",
+        "properties": {
+          "x": 1900,
+          "y": 5887,
+          "scrollFactor": {
+            "x": 0.95,
+            "y": 1
+          }
+        },
+        "addMethod": "add"
+      },
+      {
+        "id": "fore",
+        "path": "fore",
+        "properties": {
+          "x": 2.47120727274885,
+          "y": -4.24076008806242,
+          "scrollFactor": {
+            "x": 1.1,
+            "y": 1
+          },
+          "scale": {
+            "x": 0.998941972123185,
+            "y": 1
+          }
+        },
+        "addMethod": "add"
+      }
+    ]
+  }
+}

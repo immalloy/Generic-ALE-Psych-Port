@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="options.png">
+	<!-- Created with Adobe Animate version 24.0.4.28 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="options0000" x="20" y="20" width="406" height="192"/>
+	<SubTexture name="optionspress0000" x="446" y="20" width="451" height="210"/>
+	<SubTexture name="optionspress0001" x="446" y="20" width="451" height="210"/>
+	<SubTexture name="optionspress0002" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0003" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0004" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0005" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0006" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0007" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0008" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0009" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0010" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0011" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0012" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0013" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0014" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0015" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0016" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+	<SubTexture name="optionspress0017" x="20" y="250" width="442" height="205" frameX="-4" frameY="-2" frameWidth="451" frameHeight="210"/>
+</TextureAtlas>

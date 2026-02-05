@@ -1,0 +1,73 @@
+{
+  "categories": [
+    {
+      "name": "GENERIC DEV TEAM",
+      "developers": [
+        {
+          "name": "Tipico",
+          "icon": "tipico",
+          "link": "https://x.com/Tipicom_",
+          "description": "Mod Director, Main Artist Of All",
+          "color": "FFFFFF",
+          "size": 130
+        },
+        {
+          "name": "Zam!",
+          "icon": "zam",
+          "link": "",
+          "description": "Main Programmer",
+          "color": "FFFFFF",
+          "size": 110
+        },
+        {
+          "name": "DrawPant",
+          "icon": "draw",
+          "link": "https://x.com/DrawPant",
+          "description": "Peak Composer (All freakin songs)",
+          "color": "FFFFFF",
+          "size": 130
+        },
+        {
+          "name": "Qbocat",
+          "icon": "qbocat",
+          "link": "https://x.com/qbocat",
+          "description": "Events, Coding Helper and Menu Composer",
+          "color": "FFFFFF",
+          "size": 130
+        },
+        {
+          "name": "DaniArt",
+          "icon": "daniart",
+          "link": "https://x.com/DaniArt_XD",
+          "description": "Icons Artist",
+          "color": "FFFFFF",
+          "size": 130
+        },
+        {
+          "name": "Juane",
+          "icon": "juane",
+          "link": "https://x.com/Juane085",
+          "description": "Emotional Helper",
+          "color": "FFFFFF",
+          "size": 130
+        },
+        {
+          "name": "Pera",
+          "icon": "pera",
+          "link": "https://x.com/TheHomieMashups",
+          "description": "GameOver Composer",
+          "color": "FFFFFF",
+          "size": 130
+        },
+        {
+          "name": "Wilson",
+          "icon": "wilson",
+          "link": "https://x.com/its_w1lson",
+          "description": "Charter",
+          "color": "FFFFFF",
+          "size": 130
+        }
+      ]
+    }
+  ]
+}

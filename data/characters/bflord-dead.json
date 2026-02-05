@@ -1,0 +1,60 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        554,
+        -101
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "firstDeath",
+      "indices": [],
+      "name": "death1"
+    },
+    {
+      "offsets": [
+        105,
+        -415
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "deathLoop",
+      "indices": [],
+      "name": "death2"
+    },
+    {
+      "offsets": [
+        215,
+        -211
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "deathConfirm",
+      "indices": [],
+      "name": "death3"
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/bf3",
+  "position": [
+    10,
+    330
+  ],
+  "healthicon": "bflord-dead",
+  "flip_x": true,
+  "healthbar_colors": [
+    109,
+    186,
+    255
+  ],
+  "camera_position": [
+    890,
+    130
+  ],
+  "sing_duration": 4,
+  "scale": 1,
+  "cameraPosition": {
+    "x": 900,
+    "y": -200
+  }
+}

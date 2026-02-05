@@ -1,0 +1,43 @@
+{
+  "songs": [
+    [
+      "exeneric",
+      "dad",
+      [
+        146,
+        113,
+        253
+      ]
+    ],
+    [
+      "fun-is-generic",
+      "dad",
+      [
+        146,
+        113,
+        253
+      ]
+    ],
+    [
+      "too-generic",
+      "dad",
+      [
+        146,
+        113,
+        253
+      ]
+    ]
+  ],
+  "weekCharacters": [
+    "dad",
+    "bf",
+    "gf"
+  ],
+  "weekBackground": "stage",
+  "storyName": "Generic (Ported)",
+  "weekBefore": "tutorial",
+  "weekName": "Generic",
+  "startUnlocked": true,
+  "hideStoryMode": true,
+  "hideFreeplay": false
+}

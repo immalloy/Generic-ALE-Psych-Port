@@ -1,0 +1,91 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        80,
+        -210
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "idle",
+      "indices": [],
+      "name": "idle"
+    },
+    {
+      "offsets": [
+        74,
+        -210
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "reaction",
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "name": "reaction"
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/tails",
+  "position": [
+    0,
+    90
+  ],
+  "healthicon": "tails",
+  "flip_x": false,
+  "healthbar_colors": [
+    255,
+    137,
+    47
+  ],
+  "camera_position": [
+    -130,
+    230
+  ],
+  "sing_duration": 6.1,
+  "scale": 1
+}

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="credits.png">
+	<!-- Created with Adobe Animate version 24.0.4.28 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="credits0000" x="20" y="20" width="400" height="192"/>
+	<SubTexture name="creditspress0000" x="440" y="20" width="393" height="207"/>
+	<SubTexture name="creditspress0001" x="440" y="20" width="393" height="207"/>
+	<SubTexture name="creditspress0002" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0003" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0004" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0005" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0006" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0007" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0008" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0009" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0010" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0011" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0012" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0013" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0014" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0015" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0016" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0017" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0018" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0019" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0020" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0021" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0022" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+	<SubTexture name="creditspress0023" x="20" y="247" width="387" height="205" frameX="-3" frameY="-1" frameWidth="393" frameHeight="207"/>
+</TextureAtlas>

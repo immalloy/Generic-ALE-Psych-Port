@@ -1,0 +1,127 @@
+{
+  "animations": [
+    {
+      "offsets": [
+        -1,
+        -344
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singLEFT",
+      "indices": [],
+      "name": "left"
+    },
+    {
+      "offsets": [
+        -27,
+        -410
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singDOWN",
+      "indices": [],
+      "name": "down"
+    },
+    {
+      "offsets": [
+        -61,
+        -281
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singUP",
+      "indices": [],
+      "name": "up"
+    },
+    {
+      "offsets": [
+        -48,
+        -354
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singRIGHT",
+      "indices": [],
+      "name": "right"
+    },
+    {
+      "offsets": [
+        -1,
+        -344
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singLEFTmiss",
+      "indices": [],
+      "name": "missleft"
+    },
+    {
+      "offsets": [
+        -26,
+        -402
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singDOWNmiss",
+      "indices": [],
+      "name": "missdown"
+    },
+    {
+      "offsets": [
+        -64,
+        -264
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singUPmiss",
+      "indices": [],
+      "name": "missup"
+    },
+    {
+      "offsets": [
+        -48,
+        -354
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "singRIGHTmiss",
+      "indices": [],
+      "name": "missright"
+    },
+    {
+      "offsets": [
+        -10,
+        -350
+      ],
+      "loop": false,
+      "fps": 24,
+      "anim": "idle",
+      "indices": [],
+      "name": "idle"
+    }
+  ],
+  "no_antialiasing": false,
+  "image": "characters/bflord",
+  "position": [
+    10,
+    330
+  ],
+  "healthicon": "bfl",
+  "flip_x": true,
+  "healthbar_colors": [
+    109,
+    186,
+    255
+  ],
+  "camera_position": [
+    890,
+    130
+  ],
+  "sing_duration": 6.1,
+  "scale": 1,
+  "deadVariant": "bf3-dead",
+  "cameraPosition": {
+    "x": 900,
+    "y": -200
+  }
+}

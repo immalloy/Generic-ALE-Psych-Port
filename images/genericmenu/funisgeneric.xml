@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="funisgeneric.png">
+	<!-- Created with Adobe Animate version 24.0.4.28 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="funisgeneric0000" x="20" y="20" width="363" height="550"/>
+	<SubTexture name="funisgeneric0001" x="20" y="20" width="363" height="550"/>
+	<SubTexture name="funisgeneric0002" x="403" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0003" x="403" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0004" x="786" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0005" x="786" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0006" x="786" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0007" x="786" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0008" x="1169" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0009" x="1169" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0010" x="1169" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0011" x="1169" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0012" x="1169" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0013" x="1169" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0014" x="1169" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+	<SubTexture name="funisgeneric0015" x="1169" y="20" width="363" height="549" frameX="0" frameY="0" frameWidth="363" frameHeight="550"/>
+</TextureAtlas>

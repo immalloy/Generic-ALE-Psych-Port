@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="water.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="water0000" x="20" y="20" width="3572" height="1074" frameX="0" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0001" x="20" y="20" width="3572" height="1074" frameX="0" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0002" x="20" y="20" width="3572" height="1074" frameX="0" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0003" x="20" y="20" width="3572" height="1074" frameX="0" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0004" x="20" y="20" width="3572" height="1074" frameX="0" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0005" x="20" y="20" width="3572" height="1074" frameX="0" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0006" x="20" y="20" width="3572" height="1074" frameX="0" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0007" x="20" y="1114" width="3468" height="1074" frameX="-104" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0008" x="20" y="1114" width="3468" height="1074" frameX="-104" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0009" x="20" y="1114" width="3468" height="1074" frameX="-104" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0010" x="20" y="1114" width="3468" height="1074" frameX="-104" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0011" x="20" y="1114" width="3468" height="1074" frameX="-104" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0012" x="20" y="1114" width="3468" height="1074" frameX="-104" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0013" x="20" y="1114" width="3468" height="1074" frameX="-104" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0014" x="20" y="2208" width="3463" height="1074" frameX="-200" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0015" x="20" y="2208" width="3463" height="1074" frameX="-200" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0016" x="20" y="2208" width="3463" height="1074" frameX="-200" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0017" x="20" y="2208" width="3463" height="1074" frameX="-200" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0018" x="20" y="2208" width="3463" height="1074" frameX="-200" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0019" x="20" y="2208" width="3463" height="1074" frameX="-200" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0020" x="20" y="2208" width="3463" height="1074" frameX="-200" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0021" x="20" y="3302" width="3463" height="1074" frameX="-292" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0022" x="20" y="3302" width="3463" height="1074" frameX="-292" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0023" x="20" y="3302" width="3463" height="1074" frameX="-292" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0024" x="20" y="3302" width="3463" height="1074" frameX="-292" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0025" x="20" y="3302" width="3463" height="1074" frameX="-292" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0026" x="20" y="3302" width="3463" height="1074" frameX="-292" frameY="0" frameWidth="3755" frameHeight="1074"/>
+	<SubTexture name="water0027" x="20" y="3302" width="3463" height="1074" frameX="-292" frameY="0" frameWidth="3755" frameHeight="1074"/>
+</TextureAtlas>

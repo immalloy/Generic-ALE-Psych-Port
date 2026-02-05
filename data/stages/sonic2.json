@@ -1,0 +1,91 @@
+{
+  "format": "ale-stage-v0.1",
+  "hud": "default",
+  "zoom": 0.7,
+  "speed": 1,
+  "characterOffset": {
+    "id": {
+      "bf3": {
+        "x": 1466.78698839211,
+        "y": 622.501068697175
+      },
+      "tails": {
+        "x": 788.318283356939,
+        "y": 865.474954373022
+      },
+      "gf": {
+        "x": 1028,
+        "y": 948
+      },
+      "sonicexe": {
+        "x": 848.318283356939,
+        "y": 735.474954373022
+      }
+    },
+    "type": {
+      "player": {
+        "x": 0,
+        "y": 0
+      },
+      "opponent": {
+        "x": 0,
+        "y": 0
+      },
+      "extra": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "objectsConfig": {
+    "directory": "sonic2",
+    "objects": [
+      {
+        "id": "sky",
+        "path": "sky"
+      },
+      {
+        "id": "back",
+        "path": "back",
+        "properties": {
+          "scrollFactor": {
+            "x": 0.9,
+            "y": 1
+          }
+        }
+      },
+      {
+        "id": "water",
+        "path": "water",
+        "properties": {
+          "x": -404,
+          "y": 1377,
+          "scrollFactor": {
+            "x": 0.9,
+            "y": 1
+          }
+        }
+      },
+      {
+        "id": "mid",
+        "path": "mid"
+      },
+      {
+        "id": "fore",
+        "path": "fore",
+        "addMethod": "add"
+      },
+      {
+        "id": "pap",
+        "path": "pap",
+        "properties": {
+          "scrollFactor": {
+            "x": 1.1,
+            "y": 1
+          }
+        },
+        "addMethod": "add"
+      }
+    ]
+  }
+}

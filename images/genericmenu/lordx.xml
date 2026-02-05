@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lordx.png">
+	<!-- Created with Adobe Animate version 24.0.4.28 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lordx0000" x="20" y="20" width="363" height="549" frameX="0" frameY="-2" frameWidth="363" frameHeight="552"/>
+	<SubTexture name="lordx0001" x="20" y="20" width="363" height="549" frameX="0" frameY="-2" frameWidth="363" frameHeight="552"/>
+	<SubTexture name="lordx0002" x="20" y="20" width="363" height="549" frameX="0" frameY="-2" frameWidth="363" frameHeight="552"/>
+	<SubTexture name="lordx0003" x="403" y="20" width="363" height="549" frameX="0" frameY="-2" frameWidth="363" frameHeight="552"/>
+	<SubTexture name="lordx0004" x="403" y="20" width="363" height="549" frameX="0" frameY="-2" frameWidth="363" frameHeight="552"/>
+	<SubTexture name="lordx0005" x="786" y="20" width="363" height="549" frameX="0" frameY="-2" frameWidth="363" frameHeight="552"/>
+	<SubTexture name="lordx0006" x="786" y="20" width="363" height="549" frameX="0" frameY="-2" frameWidth="363" frameHeight="552"/>
+	<SubTexture name="lordx0007" x="786" y="20" width="363" height="549" frameX="0" frameY="-2" frameWidth="363" frameHeight="552"/>
+	<SubTexture name="lordx0008" x="1169" y="20" width="363" height="552"/>
+	<SubTexture name="lordx0009" x="1169" y="20" width="363" height="552"/>
+	<SubTexture name="lordx0010" x="1169" y="20" width="363" height="552"/>
+	<SubTexture name="lordx0011" x="1169" y="20" width="363" height="552"/>
+	<SubTexture name="lordx0012" x="1169" y="20" width="363" height="552"/>
+	<SubTexture name="lordx0013" x="1169" y="20" width="363" height="552"/>
+	<SubTexture name="lordx0014" x="1169" y="20" width="363" height="552"/>
+	<SubTexture name="lordx0015" x="1169" y="20" width="363" height="552"/>
+</TextureAtlas>

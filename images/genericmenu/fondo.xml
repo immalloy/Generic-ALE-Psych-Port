@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fondo.png">
+	<!-- Created with Adobe Animate version 24.0.4.28 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fondo0000" x="20" y="20" width="500" height="600"/>
+	<SubTexture name="fondo0001" x="20" y="20" width="500" height="600"/>
+	<SubTexture name="fondo0002" x="540" y="20" width="500" height="600"/>
+	<SubTexture name="fondo0003" x="540" y="20" width="500" height="600"/>
+	<SubTexture name="fondo0004" x="1060" y="20" width="500" height="600"/>
+	<SubTexture name="fondo0005" x="1060" y="20" width="500" height="600"/>
+	<SubTexture name="fondo0006" x="20" y="640" width="500" height="600"/>
+	<SubTexture name="fondo0007" x="20" y="640" width="500" height="600"/>
+	<SubTexture name="fondo0008" x="540" y="640" width="500" height="600"/>
+	<SubTexture name="fondo0009" x="540" y="640" width="500" height="600"/>
+	<SubTexture name="fondo0010" x="1060" y="640" width="500" height="600"/>
+	<SubTexture name="fondo0011" x="1060" y="640" width="500" height="600"/>
+	<SubTexture name="fondo0012" x="20" y="1260" width="500" height="600"/>
+	<SubTexture name="fondo0013" x="20" y="1260" width="500" height="600"/>
+	<SubTexture name="fondo0014" x="540" y="1260" width="500" height="600"/>
+	<SubTexture name="fondo0015" x="540" y="1260" width="500" height="600"/>
+</TextureAtlas>

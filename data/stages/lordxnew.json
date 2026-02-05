@@ -1,0 +1,93 @@
+{
+  "format": "ale-stage-v0.1",
+  "hud": "default",
+  "zoom": 0.47,
+  "speed": 1,
+  "characterOffset": {
+    "id": {
+      "bf3l": {
+        "x": 2719.69758212293,
+        "y": 1084.02916890561
+      },
+      "lordxnew": {
+        "x": 1627.88203961076,
+        "y": 1428.565582431
+      },
+      "gf": {
+        "x": 1760.05854684953,
+        "y": 1336.50354942697
+      },
+      "lordlel": {
+        "x": 1417.88203961076,
+        "y": 1378.565582431
+      }
+    },
+    "type": {
+      "player": {
+        "x": 0,
+        "y": 0
+      },
+      "opponent": {
+        "x": 0,
+        "y": 0
+      },
+      "extra": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "objectsConfig": {
+    "directory": "lordxnew",
+    "objects": [
+      {
+        "id": "sky",
+        "path": "sky"
+      },
+      {
+        "id": "background",
+        "path": "background",
+        "properties": {
+          "scrollFactor": {
+            "x": 0.9,
+            "y": 1
+          }
+        }
+      },
+      {
+        "id": "midground",
+        "path": "midground"
+      },
+      {
+        "id": "foreground",
+        "path": "foreground",
+        "properties": {
+          "x": -296.907436450494,
+          "y": 54.0090497348187,
+          "scrollFactor": {
+            "x": 1.2,
+            "y": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1.00000000000052
+          }
+        },
+        "addMethod": "add"
+      },
+      {
+        "id": "lel",
+        "path": "lel",
+        "properties": {
+          "x": 1470.21316270858,
+          "y": 1470.59922745991,
+          "scale": {
+            "x": 2.35970742347653,
+            "y": 1.9278959246205
+          }
+        },
+        "addMethod": "add"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "initialState": "GenericTitle",
+  "mainMenuState": "menus/GenericMenu",
+  "freeplayState": "menus/GenericStory",
+  "storyMenuState": "menus/GenericStory",
+  "optionsState": "OptionsState",
+  "title": "Generic (ALE Port)",
+  "developerMode": true,
+  "scriptsHotReloading": true,
+  "verbose": true,
+  "allowDebugPrint": true
+}
