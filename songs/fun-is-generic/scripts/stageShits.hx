@@ -10,6 +10,8 @@ var mapinTimer:FlxTimer;
 var lightTween:FlxTween;
 var lightTween1:FlxTween;
 var lightTween2:FlxTween;
+var dadStart:{x:Float, y:Float};
+var bfStart:{x:Float, y:Float};
 
 function postCreate()
 {
@@ -21,6 +23,14 @@ function postCreate()
 
     if (game != null && game.gf != null)
         game.gf.visible = false;
+
+    if (game != null)
+    {
+        if (game.dad != null)
+            dadStart = {x: game.dad.x, y: game.dad.y};
+        if (game.boyfriend != null)
+            bfStart = {x: game.boyfriend.x, y: game.boyfriend.y};
+    }
 
     if (mapingf != null)
     {
@@ -79,24 +89,23 @@ function onBeatHit(curBeat)
         }
     }
 
-    if (curBeat == 177 && game != null)
+}
+
+function onStepHit(curStep)
+{
+    if (curStep == 712 && game != null)
     {
         if (game.dad != null)
-        {
-            game.dad.x = 1608.82;
-            game.dad.y = 360.85;
-        }
+            game.dad.setPosition(1608.82, 360.85);
 
         if (game.boyfriend != null)
             game.boyfriend.setPosition(2568.14, 561.78);
+
+        if (game.dad != null)
+            mapinTween2 = FlxTween.tween(game.dad, { y: game.dad.y + 80 }, 2, { ease: FlxEase.sineInOut, type: FlxTween.PINGPONG });
     }
 
-    if (curBeat == 178 && game != null && game.dad != null)
-    {
-        mapinTween2 = FlxTween.tween(game.dad, { y: game.dad.y + 80 }, 2, { ease: FlxEase.sineInOut, type: FlxTween.PINGPONG });
-    }
-
-    if (curBeat == 233 && game != null)
+    if (curStep == 935 && game != null)
     {
         if (mapinTween2 != null)
         {
@@ -104,11 +113,11 @@ function onBeatHit(curBeat)
             mapinTween2 = null;
         }
 
-        if (game.dad != null)
-            game.dad.setPosition(1608, 3521);
+        if (game.dad != null && dadStart != null)
+            game.dad.setPosition(dadStart.x, dadStart.y);
 
-        if (game.boyfriend != null)
-            game.boyfriend.setPosition(2554.00270692018, 3564.97103045559);
+        if (game.boyfriend != null && bfStart != null)
+            game.boyfriend.setPosition(bfStart.x, bfStart.y);
     }
 }
 
