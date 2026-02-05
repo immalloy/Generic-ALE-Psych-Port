@@ -5,8 +5,8 @@
   "storyMenuState": "menus/GenericStory",
   "optionsState": "OptionsState",
   "title": "Generic (ALE Port)",
-  "developerMode": true,
-  "scriptsHotReloading": true,
-  "verbose": true,
+  "developerMode": false,
+  "scriptsHotReloading": false,
+  "verbose": false,
   "allowDebugPrint": true
 }

@@ -1,10 +1,15 @@
 import flixel.util.FlxColor;
+import openfl.display.BlendMode;
+import flixel.util.FlxAxes;
+import funkin.visuals.objects.Alphabet;
 
 var data = Json.parse(File.getContent(Paths.getPath('data/credits.json'))).categories;
 
 var dataDevs:Array = [];
 
 var bg:FlxSprite;
+var glow:FlxSprite;
+var bgDim:FlxSprite;
 
 var categories:FlxTypedGroup;
 var developers:FlxTypedGroup;
@@ -16,29 +21,51 @@ var description:FlxText;
 var selInt:Int = CoolUtil.save.custom.data.credits ?? 0;
 
 var theY:Float = 0;
+var canSelect:Bool = true;
 
 function onCreate()
 {
-    bg = new FlxSprite().loadGraphic(Paths.image('ui/menuBG'));
+    bg = new FlxSprite(0, 0);
+    bg.frames = Paths.getSparrowAtlas('genericmenu/fondo');
+    bg.animation.addByPrefix('idle', 'fondo', 24, true);
+    bg.animation.play('idle');
+    bg.scale.set(2.6, 2.4);
+    bg.antialiasing = false;
     bg.scrollFactor.set();
+    bg.screenCenter();
     add(bg);
-    bg.scale.x = bg.scale.y = 1.25;
-    bg.antialiasing = ClientPrefs.data.antialiasing;
+
+    bgDim = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+    bgDim.alpha = 0.35;
+    bgDim.scrollFactor.set();
+    add(bgDim);
+
+    glow = new FlxSprite(0, 0);
+    glow.frames = Paths.getSparrowAtlas('genericmenu/add');
+    glow.animation.addByPrefix('idle', 'add', 24, true);
+    glow.animation.play('idle');
+    glow.scale.set(1, 1);
+    glow.alpha = 0.6;
+    glow.blend = BlendMode.ADD;
+    glow.scrollFactor.set();
+    add(glow);
 
     add(categories = new FlxTypedGroup());
     add(developers = new FlxTypedGroup());
     add(icons = new FlxTypedGroup());
 
-    var catOffset:Float = 0;
+    var catOffset:Float = 80;
 
     for (category in data)
     {
         var catIndex:Int = data.indexOf(category);
 
         var title:Alphabet = new Alphabet(0, catIndex + catOffset, category.name);
-        title.x = FlxG.width / 2 - title.width / 2;
+        title.x = 40;
+        title.y = 40 + catOffset;
+        title.scrollFactor.set();
         categories.add(title);
-        title.antialiasing = ClientPrefs.data.antialiasing;
+        title.antialiasing = true;
 
         catOffset += title.height + 60;
 
@@ -51,8 +78,8 @@ function onCreate()
             var alpha:Alphabet = new Alphabet(0, title.y + title.height + 60 + 100 * devIndex, dev.name, false);
             developers.add(alpha);
             alpha.scaleX = alpha.scaleY = 0.75;
-            alpha.x = FlxG.width / 2 - alpha.width / 2;
-            alpha.antialiasing = ClientPrefs.data.antialiasing;
+            alpha.x = FlxG.width - alpha.width - 200;
+            alpha.antialiasing = true;
 
             for (let in alpha)
             {
@@ -63,16 +90,14 @@ function onCreate()
 
             var icon:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menus/credits/' + dev.icon));
             icons.add(icon);
-            icon.antialiasing = ClientPrefs.data.antialiasing;
+            icon.antialiasing = true;
 
             var size:Float = dev.size ?? 100;
             icon.scale.x = size / icon.width;
             icon.scale.y = size / icon.height;
             icon.updateHitbox();
 
-            alpha.x -= icon.width / 2 - 10;
-
-            icon.x = alpha.x + alpha.width + 20;
+            icon.x = alpha.x - icon.width - 20;
             icon.y = alpha.y + alpha.height / 2 - icon.height / 2;
 
             alpha.y -= 40;
@@ -86,29 +111,28 @@ function onCreate()
     if (selInt >= developers.length)
         selInt = 0;
 
-    descBG = new FlxSprite().makeGraphic(FlxG.width, 1, FlxColor.BLACK); 
+    descBG = new FlxSprite().makeGraphic(420, 1, FlxColor.BLACK);
     descBG.alpha = 0.5;
     descBG.scrollFactor.set();
     add(descBG);
 
-    description = new FlxText(20, 0, FlxG.width - 40, '', 30);
-    description.font = Paths.font('vcr.ttf');
-    description.alignment = 'center';
+    description = new FlxText(0, 0, 360, '', 26);
+    description.font = Paths.font('olawei.ttf');
+    description.alignment = 'left';
     add(description);
     description.scrollFactor.set();
-    description.x = FlxG.width - description.width;
-    description.y = FlxG.height - 100 - description.height / 2;
+    description.x = 40;
+    description.y = FlxG.height - 160;
 
-    descBG.scale.y = description.height + 40;
+    descBG.scale.y = description.height + 28;
     descBG.updateHitbox();
-    descBG.y = description.y - 20;
+    descBG.x = 30;
+    descBG.y = description.y - 14;
     
     bg.color = CoolUtil.colorFromString(dataDevs[selInt].color);
  
     changeShit();
 }
-
-var canSelect:Bool = true;
 
 function onUpdate()
 {
@@ -119,9 +143,10 @@ function onUpdate()
             CoolUtil.switchState(new CustomState('menus/GenericMenu'));
 
             FlxG.sound.play(Paths.sound('cancelMenu'));
+            canSelect = false;
         }
 
-        if (Controls.UP_P)
+        if (Controls.UP_P || Controls.MOUSE_WHEEL_UP)
         {
             selInt -= 1;
             if (selInt < 0)
@@ -129,7 +154,7 @@ function onUpdate()
             changeShit();
         }
 
-        if (Controls.DOWN_P)
+        if (Controls.DOWN_P || Controls.MOUSE_WHEEL_DOWN)
         {
             selInt += 1;
             if (selInt >= developers.length)
@@ -143,24 +168,34 @@ function onUpdate()
                 FlxG.openURL(dataDevs[selInt].link);
         }
     }
+
+    game.camGame.scroll.y = CoolUtil.fpsLerp(game.camGame.scroll.y, theY - 220, 0.2);
+
+    bg.screenCenter();
+    glow.screenCenter();
 }
 
 function changeShit()
 {
     for (index => spr in developers)
     {
-        spr.alpha = index == selInt ? 1 : 0.6;
-        spr.scaleX = spr.scaleY = index == selInt ? 0.8 : 0.7;
+        spr.alpha = index == selInt ? 1 : 0.5;
+        spr.scaleX = spr.scaleY = index == selInt ? 0.82 : 0.7;
     }
 
     for (index => spr in icons)
         spr.alpha = index == selInt ? 1 : 0.6;
 
+    for (dev in developers)
+        if (developers.members.indexOf(dev) == selInt)
+            theY = dev.y;
+
     description.text = dataDevs[selInt].description;
 
-    descBG.scale.y = description.height + 40;
+    descBG.scale.y = description.height + 28;
     descBG.updateHitbox();
-    descBG.y = description.y - 20;
+    descBG.x = 30;
+    descBG.y = description.y - 14;
 
     bg.color = CoolUtil.colorFromString(dataDevs[selInt].color);
 }

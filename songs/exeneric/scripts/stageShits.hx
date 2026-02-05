@@ -32,7 +32,15 @@ function onStepHit(curStep)
         if (game != null)
         {
             if (game.boyfriend != null) game.boyfriend.visible = false;
-            if (game.dad != null) game.dad.visible = false;
+            if (game.dad != null) game.dad.visible = true;
+            game.shouldMoveCamera = false;
+
+            if (game.camGame != null && game.dad != null && Reflect.hasField(game, 'getCharacterCamera'))
+            {
+                var camPos = game.getCharacterCamera(game.dad);
+                if (camPos != null)
+                    game.camGame.position.set(camPos.x, camPos.y);
+            }
         }
     }
 

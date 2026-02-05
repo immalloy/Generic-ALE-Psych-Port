@@ -23,16 +23,11 @@ function onEventHit(eventId, p1, p2, p3, p4, p5, p6, p7, p8)
     if (character == null)
         return;
 
-    var updateBarBool:Bool = updateBar == true || Std.string(updateBar) == 'true' || Std.string(updateBar) == '1';
+    changeCharacter(character, newChar);
 
-    var changeFunc = Reflect.field(game, 'changeCharacter');
-    if (changeFunc != null)
-        Reflect.callMethod(game, changeFunc, [character, newChar]);
-    else
-        character.change(newChar);
-
-    if (Reflect.hasField(game, 'resetCharacterPosition'))
-        game.resetCharacterPosition(character);
+    character = strl.characters[mIndex];
+    if (character == null)
+        return;
 
     if (originalIndex == 1)
     {
@@ -68,4 +63,16 @@ function toFloat(value, fallback:Float):Float
 
     var num:Float = Std.parseFloat(Std.string(value));
     return Math.isNaN(num) ? fallback : num;
+}
+
+function changeCharacter(character, newChar)
+{
+    if (game == null)
+        return;
+
+    var changeFunc = Reflect.field(game, 'changeCharacter');
+    if (changeFunc != null)
+        Reflect.callMethod(game, changeFunc, [character, newChar]);
+    else
+        character.change(newChar);
 }

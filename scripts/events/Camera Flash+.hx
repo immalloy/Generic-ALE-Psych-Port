@@ -1,8 +1,4 @@
 var flash:FlxSprite;
-var flashTimer:FlxTimer;
-
-var flash:FlxSprite;
-
 function onEventHit(eventId, p1, p2, p3, p4, p5, p6, p7, p8)
 {
     var color = p1;
@@ -19,16 +15,9 @@ function onEventHit(eventId, p1, p2, p3, p4, p5, p6, p7, p8)
     if (game == null)
         return;
 
-    if (flash == null)
-    {
-        flash = new FlxSprite(0, 0);
-        flash.cameras = [game.camHUD];
-    }
+    var flash = new FlxSprite(0, 0);
+    flash.cameras = [game.camHUD];
     flash.makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
-    flash.visible = true;
-
-    FlxTween.cancelTweensOf(flash);
-    remove(flash, true);
 
     if (overHud == true)
         insert(100000, flash);
@@ -58,13 +47,6 @@ function onEventHit(eventId, p1, p2, p3, p4, p5, p6, p7, p8)
         FlxTween.tween(flash, {alpha: endAlpha}, duration, {onComplete: (_) -> { remove(flash, true); }});
     else
         FlxTween.tween(flash, {alpha: endAlpha}, duration, {ease: easeFunc, onComplete: (_) -> { remove(flash, true); }});
-
-    if (flashTimer != null)
-        flashTimer.cancel();
-
-    flashTimer = new FlxTimer().start(duration + 0.1, function(_) {
-        remove(flash, true);
-    });
 }
 
 function toFloat(value, fallback:Float):Float
